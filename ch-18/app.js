@@ -1,11 +1,15 @@
 // 1. Write a statement in which loop is to run 10 times.
-
+for (var i = 0; i<=9; i++) {
+    console.log(i);
+}
 
 
 // 2. Code the first line of a for loop with the usual counter name, usual 
 // starting value, and usual increment. Run it 12 times using <= to 
 // specify how many loops.
-
+for (var i = 0; i <=11; i++) {
+    console.log(i);
+}
 
 
 // 3. What are the 5 characters missing from this code, excluding any 
@@ -13,18 +17,26 @@
 // commas between them.
 // for var i = 0 i <= 4 i++
 // Note: Complete this statement by yourself
+for (var i = 0; i <= 4; i++){
 
+}
 
 
 // 4. Code the first line of a for loop with a counter name that's not i. 
 // Code the usual starting value and usual increment. Run it 100 
 // times using < to specify how many loops.
-
+for (var hello = 0; hello <100; hello++) {
+    console.log(hello);
+}
 
 
 // 5. Code the first line of a for loop with the usual counter and the 
 // usual starting value. Run it 3 times using > to specify how many 
 // loops. Decrement it with each iteration.
+for (var i = 6; i >3; i--) {
+    console.log(i);
+}
+
 
 
 
@@ -53,7 +65,7 @@
 
 
 // 10. Create an array which contains user names
-// Code a prompt with the message "Enter first name". The user's 
+// Code a prom-pt with the message "Enter first name". The user's 
 // response is assigned to firstName.
 // Code the first line of a for loop with the usual counter, the usual 
 // starting value, and the usual incrementing. Limit the number of 
